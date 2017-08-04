@@ -9,7 +9,9 @@ Make your own Google Home clone with a Raspberry Pi using the Google Assistant S
 ### Changing the configuration
 1. Click on the Raspberry symbol at the top left of the display. Go to Preferences > Raspberry Pi Configuration > “Interfaces” > enable SSH.
 2. Click on the Wi-Fi symbol at the top right of the display and select your Wi-Fi network. Enter the required password and get connected. 
-3. Double click on the “Start dev terminal” icon on the desktop. In the terminal window type ```sudo leafpad /boot/config.txt``` and remove the # in front the the line ```dtparam=audio=on``` and insert a # in front of the two lines below it. Save the file and exit from leafpad.
+3. Double click on the “Start dev terminal” icon on the desktop. In the terminal window type 
+```sudo leafpad /boot/config.txt``` 
+and remove the # in front the the line ```dtparam=audio=on``` and insert a # in front of the two lines below it. Save the file and exit from leafpad.
 It should look like this:
 ```
 # Enable audio (loads snd_bcm2835)
